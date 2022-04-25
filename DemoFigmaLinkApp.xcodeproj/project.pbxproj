@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09BA0429D6AF69EF66F2F9B4 /* Pods_DemoFigmaLinkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3767B28DCDAAEA3A64AE68C4 /* Pods_DemoFigmaLinkApp.framework */; };
 		BDC4DE4428117A46007EC2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4DE4328117A46007EC2DF /* AppDelegate.swift */; };
 		BDC4DE4628117A46007EC2DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4DE4528117A46007EC2DF /* SceneDelegate.swift */; };
 		BDC4DE4828117A46007EC2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4DE4728117A46007EC2DF /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 		BDC4DE5B28117A48007EC2DF /* DemoFigmaLinkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4DE5A28117A48007EC2DF /* DemoFigmaLinkAppTests.swift */; };
 		BDC4DE6528117A48007EC2DF /* DemoFigmaLinkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4DE6428117A48007EC2DF /* DemoFigmaLinkAppUITests.swift */; };
 		BDC4DE6728117A48007EC2DF /* DemoFigmaLinkAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4DE6628117A48007EC2DF /* DemoFigmaLinkAppUITestsLaunchTests.swift */; };
+		BDC957E728167BDC00CB10CA /* AESEncription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC957E528167BDC00CB10CA /* AESEncription.swift */; };
+		BDC957E828167BDC00CB10CA /* DXConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC957E628167BDC00CB10CA /* DXConstant.swift */; };
+		BDC957EA28167DDE00CB10CA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC957E928167DDE00CB10CA /* DataService.swift */; };
+		BDC957EC28167E6B00CB10CA /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = BDC957EB28167E6B00CB10CA /* tokens.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3767B28DCDAAEA3A64AE68C4 /* Pods_DemoFigmaLinkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoFigmaLinkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		818FC4B4E1AEAC34C806425E /* Pods-DemoFigmaLinkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFigmaLinkApp.debug.xcconfig"; path = "Target Support Files/Pods-DemoFigmaLinkApp/Pods-DemoFigmaLinkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5B0276FE0F0BBBDAC536FF /* Pods-DemoFigmaLinkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFigmaLinkApp.release.xcconfig"; path = "Target Support Files/Pods-DemoFigmaLinkApp/Pods-DemoFigmaLinkApp.release.xcconfig"; sourceTree = "<group>"; };
 		BDC4DE4028117A46007EC2DF /* DemoFigmaLinkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFigmaLinkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC4DE4328117A46007EC2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC4DE4528117A46007EC2DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		BDC4DE6028117A48007EC2DF /* DemoFigmaLinkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFigmaLinkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC4DE6428117A48007EC2DF /* DemoFigmaLinkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFigmaLinkAppUITests.swift; sourceTree = "<group>"; };
 		BDC4DE6628117A48007EC2DF /* DemoFigmaLinkAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFigmaLinkAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC957E528167BDC00CB10CA /* AESEncription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESEncription.swift; sourceTree = "<group>"; };
+		BDC957E628167BDC00CB10CA /* DXConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DXConstant.swift; sourceTree = "<group>"; };
+		BDC957E928167DDE00CB10CA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BDC957EB28167E6B00CB10CA /* tokens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokens.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BA0429D6AF69EF66F2F9B4 /* Pods_DemoFigmaLinkApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +89,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1120B7F5E4EA62424F543B78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				818FC4B4E1AEAC34C806425E /* Pods-DemoFigmaLinkApp.debug.xcconfig */,
+				AF5B0276FE0F0BBBDAC536FF /* Pods-DemoFigmaLinkApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BB1603AC80B3E45CC7FE296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3767B28DCDAAEA3A64AE68C4 /* Pods_DemoFigmaLinkApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BDC4DE3728117A46007EC2DF = {
 			isa = PBXGroup;
 			children = (
+				BDC957EB28167E6B00CB10CA /* tokens.json */,
 				BDC4DE4228117A46007EC2DF /* DemoFigmaLinkApp */,
 				BDC4DE5928117A48007EC2DF /* DemoFigmaLinkAppTests */,
 				BDC4DE6328117A48007EC2DF /* DemoFigmaLinkAppUITests */,
 				BDC4DE4128117A46007EC2DF /* Products */,
+				1120B7F5E4EA62424F543B78 /* Pods */,
+				7BB1603AC80B3E45CC7FE296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +133,9 @@
 		BDC4DE4228117A46007EC2DF /* DemoFigmaLinkApp */ = {
 			isa = PBXGroup;
 			children = (
+				BDC957E928167DDE00CB10CA /* DataService.swift */,
+				BDC957E528167BDC00CB10CA /* AESEncription.swift */,
+				BDC957E628167BDC00CB10CA /* DXConstant.swift */,
 				BDC4DE4328117A46007EC2DF /* AppDelegate.swift */,
 				BDC4DE4528117A46007EC2DF /* SceneDelegate.swift */,
 				BDC4DE4728117A46007EC2DF /* ViewController.swift */,
@@ -134,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDC4DE6A28117A48007EC2DF /* Build configuration list for PBXNativeTarget "DemoFigmaLinkApp" */;
 			buildPhases = (
+				49754FCB96848BD25112FCDC /* [CP] Check Pods Manifest.lock */,
 				BDC4DE3C28117A46007EC2DF /* Sources */,
 				BDC4DE3D28117A46007EC2DF /* Frameworks */,
 				BDC4DE3E28117A46007EC2DF /* Resources */,
+				AC0B194603EFD5863EC0D947 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +273,7 @@
 				BDC4DE5028117A48007EC2DF /* LaunchScreen.storyboard in Resources */,
 				BDC4DE4D28117A48007EC2DF /* Assets.xcassets in Resources */,
 				BDC4DE4B28117A46007EC2DF /* Main.storyboard in Resources */,
+				BDC957EC28167E6B00CB10CA /* tokens.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +293,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49754FCB96848BD25112FCDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoFigmaLinkApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0B194603EFD5863EC0D947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoFigmaLinkApp/Pods-DemoFigmaLinkApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoFigmaLinkApp/Pods-DemoFigmaLinkApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoFigmaLinkApp/Pods-DemoFigmaLinkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDC4DE3C28117A46007EC2DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +342,9 @@
 			files = (
 				BDC4DE4828117A46007EC2DF /* ViewController.swift in Sources */,
 				BDC4DE4428117A46007EC2DF /* AppDelegate.swift in Sources */,
+				BDC957E728167BDC00CB10CA /* AESEncription.swift in Sources */,
+				BDC957EA28167DDE00CB10CA /* DataService.swift in Sources */,
+				BDC957E828167BDC00CB10CA /* DXConstant.swift in Sources */,
 				BDC4DE4628117A46007EC2DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +517,7 @@
 		};
 		BDC4DE6B28117A48007EC2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818FC4B4E1AEAC34C806425E /* Pods-DemoFigmaLinkApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +545,7 @@
 		};
 		BDC4DE6C28117A48007EC2DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5B0276FE0F0BBBDAC536FF /* Pods-DemoFigmaLinkApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
