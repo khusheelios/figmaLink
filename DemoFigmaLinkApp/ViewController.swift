@@ -29,14 +29,8 @@ class ViewController: UIViewController {
                     
                           
                                 let textColor = json["global"]["subheader-textcolor"]["value"]
-                                let text_color2 = json["global"]["text-color2"]["value"]
-                                let text_border = json["global"]["text-border"]["value"]
-                                let background_color = json["global"]["background-color"]["value"]
-                                let background_color2 = json["global"]["background-color2"]["value"]
-                               
-                                print("textColor",textColor,text_color2,text_border,background_color,background_color2)
-                              
-                    subView.backgroundColor = UIColor(hexString: background_color.rawValue as! String)
+                             
+                    subView.backgroundColor = UIColor(hexString: textColor.rawValue as! String)
                     
         }
     }
