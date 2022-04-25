@@ -1,0 +1,6 @@
+framework module Pods_DemoFigmaLinkApp {
+  umbrella header "Pods-DemoFigmaLinkApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
